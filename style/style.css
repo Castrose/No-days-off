@@ -14,6 +14,10 @@
     --color-4: #DEDAD7;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .img {
     background-image: url(../img/MVV-logo.jpg);
     background-color: #161616;
@@ -133,8 +137,8 @@ footer a {
         border-left: 2px solid black;
     }
     .agenda_comp_comp {
-        width: 50%;
-        margin-left: 50%;
+        width: 30%;
+        margin-left: 70%;
         position: absolute;
         top: 497px;
     }
@@ -146,13 +150,23 @@ footer a {
 
     .left-side > h1 {
         font-size: 24px;
+        margin: 10px;
     }
 
-    .left-side > img {
+    .left-side > iframe {
+        margin: 20px;
+        border: 1px solid black;
+    }
+
+    .left-side img {
         box-sizing: border-box;
         width: 30px;
         margin-top: 15px;
         margin-left: 1px;
+    }
+
+    .left-side > a {
+        text-decoration: none;
     }
 
     .left-side > p  {
